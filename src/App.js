@@ -14,7 +14,7 @@ export default class App {
   }
 
   route() {
-    const route = new Route(this.app);
+    const route = new Route(this.app, this.__dirname);
     route.route();
   }
 
