@@ -11,10 +11,12 @@ export class Route {
       res.render("index.html", {});
     });
 
-    app.get("/.well-known/pki-validation/", function (req, res) {
-      console.log(dirname);
-      res.sendFile(dirname + "/596F0F30EDFD078D024EDC085AC1A9D5.txt");
-    });
+    app.get(
+      "/.well-known/pki-validation/596F0F30EDFD078D024EDC085AC1A9D5.txt",
+      function (req, res) {
+        res.sendFile(dirname + "/596F0F30EDFD078D024EDC085AC1A9D5.txt");
+      }
+    );
 
     //1. enetry point
     app.listen(9916, function () {
