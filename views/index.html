@@ -1,1 +1,947 @@
-hihi
+<!DOCTYPE html>
+<html lang="en" class="dark-theme">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- loader-->
+    <link href="assets/css/pace.min.css" rel="stylesheet" />
+    <script src="assets/js/pace.min.js"></script>
+
+    <!--plugins-->
+    <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+    <link
+      href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/plugins/metismenu/css/metisMenu.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap-extended.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/icons.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Theme Styles-->
+    <link href="assets/css/dark-theme.css" rel="stylesheet" />
+    <link href="assets/css/semi-dark.css" rel="stylesheet" />
+    <link href="assets/css/header-colors.css" rel="stylesheet" />
+
+    <link href="/assets/css/neon.css" rel="stylesheet" />
+
+    <title>AI 컨텐츠 만들기 체험 GWP</title>
+  </head>
+
+  <body>
+    <!--start wrapper-->
+    <div class="wrapper">
+      <!--start sidebar -->
+      <aside class="sidebar-wrapper" data-simplebar="true">
+        <div class="sidebar-header">
+          <div>
+            <img
+              src="assets/images/logo-icon-2.png"
+              class="logo-icon"
+              alt="logo icon"
+            />
+          </div>
+          <div>
+            <h4 class="logo-text">AI 컨텐츠 만들기 체험 GWP</h4>
+          </div>
+        </div>
+        <!--navigation-->
+        <ul class="metismenu" id="menu">
+          <li>
+            <a href="#">
+              <div class="parent-icon">
+                <ion-icon name="home-outline"></ion-icon>
+              </div>
+              <div class="menu-title">시작하기</div>
+            </a>
+          </li>
+        </ul>
+        <!--end navigation-->
+      </aside>
+      <!--end sidebar -->
+
+      <!--start top header-->
+      <header class="top-header">
+        <nav class="navbar navbar-expand gap-3">
+          <div class="toggle-icon">
+            <ion-icon name="menu-outline"></ion-icon>
+          </div>
+
+          <form class="searchbar">
+            <div
+              class="position-absolute top-50 translate-middle-y search-icon ms-3"
+            >
+              <ion-icon name="search-outline"></ion-icon>
+            </div>
+            <input
+              class="form-control"
+              type="text"
+              placeholder="AI 컨텐츠 만들기 쉽쥬?"
+            />
+            <div
+              class="position-absolute top-50 translate-middle-y search-close-icon"
+            >
+              <ion-icon name="close-outline"></ion-icon>
+            </div>
+          </form>
+          <div class="top-navbar-right ms-auto">
+            <ul class="navbar-nav align-items-center">
+              <li class="nav-item">
+                <a class="nav-link mobile-search-button" href="javascript:;">
+                  <div class="">
+                    <ion-icon name="search-outline"></ion-icon>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item dropdown dropdown-large dropdown-apps">
+                <a
+                  class="nav-link dropdown-toggle dropdown-toggle-nocaret"
+                  href="javascript:;"
+                  data-bs-toggle="dropdown"
+                >
+                  <div class="">
+                    <ion-icon name="apps-outline"></ion-icon>
+                  </div>
+                </a>
+                <div class="dropdown-menu dropdown-menu-end dropdown-menu-dark">
+                  <div class="row row-cols-3 g-3 p-3">
+                    <div class="col text-center">
+                      <div
+                        class="app-box mx-auto bg-gradient-purple text-white"
+                      >
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </div>
+                      <div class="app-title">생성형AI는</div>
+                    </div>
+                    <div class="col text-center">
+                      <div class="app-box mx-auto bg-gradient-info text-white">
+                        <ion-icon name="people-outline"></ion-icon>
+                      </div>
+                      <div class="app-title">영상</div>
+                    </div>
+                    <div class="col text-center">
+                      <div
+                        class="app-box mx-auto bg-gradient-success text-white"
+                      >
+                        <ion-icon name="shield-checkmark-outline"></ion-icon>
+                      </div>
+                      <div class="app-title">이미지</div>
+                    </div>
+                    <div class="col text-center">
+                      <div
+                        class="app-box mx-auto bg-gradient-danger text-white"
+                      >
+                        <ion-icon name="videocam-outline"></ion-icon>
+                      </div>
+                      <div class="app-title">노래 등</div>
+                    </div>
+                    <div class="col text-center">
+                      <div
+                        class="app-box mx-auto bg-gradient-warning text-white"
+                      >
+                        <ion-icon name="file-tray-outline"></ion-icon>
+                      </div>
+                      <div class="app-title">다양한 컨텐츠를</div>
+                    </div>
+                    <div class="col text-center">
+                      <div
+                        class="app-box mx-auto bg-gradient-branding text-white"
+                      >
+                        <ion-icon name="notifications-outline"></ion-icon>
+                      </div>
+                      <div class="app-title">만들 수 있습니다.</div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown dropdown-large">
+                <a
+                  class="nav-link dropdown-toggle dropdown-toggle-nocaret"
+                  href="javascript:;"
+                  data-bs-toggle="dropdown"
+                >
+                  <div class="position-relative">
+                    <span class="notify-badge">8</span>
+                    <ion-icon name="notifications-outline"></ion-icon>
+                  </div>
+                </a>
+                <div class="dropdown-menu dropdown-menu-end">
+                  <a href="javascript:;">
+                    <div class="msg-header">
+                      <p class="msg-header-title">알림</p>
+                      <p class="msg-header-clear ms-auto">모두 읽기</p>
+                    </div>
+                  </a>
+                  <div class="header-notifications-list">
+                    <a class="dropdown-item" href="javascript:;">
+                      <div class="d-flex align-items-center">
+                        <div class="notify text-primary">
+                          <ion-icon name="cart-outline"></ion-icon>
+                        </div>
+                        <div class="flex-grow-1">
+                          <h6 class="msg-name">
+                            우판등심에서
+                            <span class="msg-time float-end">11시 반부터</span>
+                          </h6>
+                          <p class="msg-info">배불리 먹어봐유</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <a href="javascript:;">
+                    <div class="text-center msg-footer">소고기 파티</div>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item dropdown dropdown-user-setting">
+                <a
+                  class="nav-link dropdown-toggle dropdown-toggle-nocaret"
+                  href="javascript:;"
+                  data-bs-toggle="dropdown"
+                >
+                  <div class="user-setting">
+                    <img
+                      src="/assets/profile/title.png"
+                      class="user-img"
+                      alt=""
+                    />
+                  </div>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li>
+                    <a class="dropdown-item" href="javascript:;">
+                      <div class="d-flex flex-row align-items-center gap-2">
+                        <img
+                          src="/assets/profile/title.png"
+                          alt=""
+                          class="rounded-circle"
+                          width="54"
+                          height="54"
+                        />
+                        <div class="">
+                          <h6 class="mb-0 dropdown-user-name">jh0511.lee</h6>
+                          <small
+                            class="mb-0 dropdown-user-designation text-secondary"
+                            >Message app team</small
+                          >
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:;">
+                      <div class="d-flex align-items-center">
+                        <div class="">
+                          <ion-icon name="person-outline"></ion-icon>
+                        </div>
+                        <div class="ms-3"><span>여러분과 함께</span></div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:;">
+                      <div class="d-flex align-items-center">
+                        <div class="">
+                          <ion-icon name="settings-outline"></ion-icon>
+                        </div>
+                        <div class="ms-3">
+                          <span>AI컨텐츠를 </span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:;">
+                      <div class="d-flex align-items-center">
+                        <div class="">
+                          <ion-icon name="speedometer-outline"></ion-icon>
+                        </div>
+                        <div class="ms-3"><span>체험해볼 수 있어서</span></div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:;">
+                      <div class="d-flex align-items-center">
+                        <div class="">
+                          <ion-icon name="wallet-outline"></ion-icon>
+                        </div>
+                        <div class="ms-3"><span>정말</span></div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:;">
+                      <div class="d-flex align-items-center">
+                        <div class="">
+                          <ion-icon name="cloud-download-outline"></ion-icon>
+                        </div>
+                        <div class="ms-3"><span>영광입니다.</span></div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javascript:;">
+                      <div class="d-flex align-items-center">
+                        <div class="">
+                          <ion-icon name="log-out-outline"></ion-icon>
+                        </div>
+                        <div class="ms-3"><span>일찍 퇴근하시쥬</span></div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!--end top header-->
+
+      <!-- start page content wrapper-->
+      <div class="page-content-wrapper">
+        <!-- start page content-->
+        <div class="page-content">
+          <!--start breadcrumb-->
+          <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+            <div class="breadcrumb-title pe-3">참고자료</div>
+            <div class="ps-3">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0 p-0 align-items-center">
+                  <li class="breadcrumb-item">
+                    <a href="javascript:;">
+                      <ion-icon name="home-outline"></ion-icon>
+                    </a>
+                  </li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    AI컨텐츠 만들기 GWP
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+
+          <div class="row text-center mb-5">
+            <div class="neon">AI콘텐츠 만들기</div>
+            <div class="flux">9월 GWP</div>
+          </div>
+
+          <div class="card radius-10 w-100">
+            <div class="card-body text-center">
+              <div class="row">
+                <div class="col">
+                  <button
+                    type="button"
+                    class="btn btn-lg btn-outline-danger px-5"
+                    onclick="javascript:window.open('/assets/pdf/jh_gwp09.pdf', '_blank')"
+                  >
+                    강의자료 다운로드
+                  </button>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col">
+                  <button
+                    type="button"
+                    class="btn btn-outline-warning px-5 radius-30"
+                    onclick="javascript:window.open('https://aistudio.google.com/prompts/new_chat', '_blank')"
+                  >
+                    나노바나나 바로가기
+                  </button>
+                </div>
+                <div class="col">
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary px-5 radius-30"
+                    onclick="javascript:window.open('https://labs.google/fx/ko/tools/flow', '_blank')"
+                  >
+                    Veo3 바로가기
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card radius-10 w-100">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-3">
+                <h6 class="mb-0">맛보기 결과 영상 샘플</h6>
+              </div>
+              <video
+                src="/assets/test.mp4"
+                controls
+                class="d-flex align-items-center mt-3"
+                width="340"
+              ></video>
+            </div>
+          </div>
+
+          <div class="row row-cols-1 row-cols-lg-2 row-cols-xxl-4">
+            <div class="col">
+              <div class="card radius-10">
+                <div class="card-body">
+                  <div class="d-flex align-items-start gap-2">
+                    <div>
+                      <p class="mb-0 fs-6">시퀀스1</p>
+                    </div>
+                    <div
+                      class="ms-auto widget-icon-small text-white bg-gradient-purple"
+                    >
+                      <ion-icon name="wallet-outline"></ion-icon>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <ul class="nav nav-tabs nav-success" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link active"
+                          data-bs-toggle="tab"
+                          href="#successhome"
+                          role="tab"
+                          aria-selected="true"
+                        >
+                          <div class="d-flex align-items-center">
+                            <div class="tab-icon">
+                              <ion-icon
+                                name="home-sharp"
+                                class="me-1"
+                              ></ion-icon>
+                            </div>
+                            <div class="tab-title">설명</div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          data-bs-toggle="tab"
+                          href="#successprofile"
+                          role="tab"
+                          aria-selected="false"
+                        >
+                          <div class="d-flex align-items-center">
+                            <div class="tab-icon">
+                              <ion-icon
+                                name="person-sharp"
+                                class="me-1"
+                              ></ion-icon>
+                            </div>
+                            <div class="tab-title">프롬프트</div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          data-bs-toggle="tab"
+                          href="#successcontact"
+                          role="tab"
+                          aria-selected="false"
+                        >
+                          <div class="d-flex align-items-center">
+                            <div class="tab-icon">
+                              <ion-icon
+                                name="call-sharp"
+                                class="me-1"
+                              ></ion-icon>
+                            </div>
+                            <div class="tab-title">소스 이미지</div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="tab-content py-3">
+                      <div
+                        class="tab-pane fade show active"
+                        id="successhome"
+                        role="tabpanel"
+                      >
+                        <h4>시퀀스1:골프로 휴식을 취하는 아이언맨</h4>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="successprofile"
+                        role="tabpanel"
+                      >
+                        <h4>veo3를 위한 프롬프트</h4>
+                        <h5 class="text-secondary">
+                          A cinematic 3D animated scene of Iron Man wearing a
+                          sleek black suit, standing on a lush golf course,
+                          swinging a golf club with perfect form. The animation
+                          style should be Pixar-like with smooth motion, vibrant
+                          colors, and realistic lighting. The scene captures the
+                          elegance of his suit contrasting with the high-tech
+                          Iron Man helmet, while the golf ball soars
+                          dramatically into the sky. Dynamic camera angles
+                          emphasize the swing in a stylish and heroic manner.
+                        </h5>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="successcontact"
+                        role="tabpanel"
+                        style="overflow: scroll"
+                      >
+                        <img
+                          src="/assets/img/seq1/ironman.jpg"
+                          style="max-width: 300px"
+                        />
+                        <img
+                          src="/assets/img/seq1/golfiron.png"
+                          style="max-width: 300px"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card radius-10">
+                <div class="card-body">
+                  <div class="d-flex align-items-start gap-2">
+                    <div>
+                      <p class="mb-0 fs-6">시퀀스2</p>
+                    </div>
+                    <div
+                      class="ms-auto widget-icon-small text-white bg-gradient-info"
+                    >
+                      <ion-icon name="people-outline"></ion-icon>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <ul class="nav nav-tabs nav-success" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link active"
+                          data-bs-toggle="tab"
+                          href="#successhome2"
+                          role="tab"
+                          aria-selected="true"
+                        >
+                          <div class="d-flex align-items-center">
+                            <div class="tab-icon">
+                              <ion-icon
+                                name="home-sharp"
+                                class="me-1"
+                              ></ion-icon>
+                            </div>
+                            <div class="tab-title">설명</div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          data-bs-toggle="tab"
+                          href="#successprofile2"
+                          role="tab"
+                          aria-selected="false"
+                        >
+                          <div class="d-flex align-items-center">
+                            <div class="tab-icon">
+                              <ion-icon
+                                name="person-sharp"
+                                class="me-1"
+                              ></ion-icon>
+                            </div>
+                            <div class="tab-title">프롬프트</div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          data-bs-toggle="tab"
+                          href="#successcontact2"
+                          role="tab"
+                          aria-selected="false"
+                        >
+                          <div class="d-flex align-items-center">
+                            <div class="tab-icon">
+                              <ion-icon
+                                name="call-sharp"
+                                class="me-1"
+                              ></ion-icon>
+                            </div>
+                            <div class="tab-title">소스 이미지</div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="tab-content py-3">
+                      <div
+                        class="tab-pane fade show active"
+                        id="successhome2"
+                        role="tabpanel"
+                      >
+                        <h4>시퀀스2:pc방에 불이났다는 전화로 듣고 날아간다</h4>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="successprofile2"
+                        role="tabpanel"
+                      >
+                        <h4>veo3를 위한 프롬프트</h4>
+                        <h5 class="text-secondary">
+                          A dynamic 3D animated scene of Iron Man in a sharp
+                          black business suit, holding a smartphone to his ear.
+                          Suddenly, he looks shocked, shouting in Korean, “아니
+                          뭐라고?” with expressive animation. His helmet snaps
+                          into place as he activates his thrusters, launching
+                          dramatically into the sky with glowing jet flames. The
+                          style is cinematic, Pixar-like, with smooth motion,
+                          vivid expressions, and a mix of humor and heroic
+                          energy.
+                        </h5>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="successcontact2"
+                        role="tabpanel"
+                        style="overflow: scroll"
+                      >
+                        <img
+                          src="/assets/img/seq2/callediron.png"
+                          style="max-width: 300px"
+                        />
+                        <img
+                          src="/assets/img/seq2/flyiron.png"
+                          style="max-width: 300px"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card radius-10">
+                <div class="card-body">
+                  <div class="d-flex align-items-start gap-2">
+                    <div>
+                      <p class="mb-0 fs-6">시퀀스3</p>
+                    </div>
+                    <div
+                      class="ms-auto widget-icon-small text-white bg-gradient-danger"
+                    >
+                      <ion-icon name="bag-handle-outline"></ion-icon>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <ul class="nav nav-tabs nav-success" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link active"
+                          data-bs-toggle="tab"
+                          href="#successhome3"
+                          role="tab"
+                          aria-selected="true"
+                        >
+                          <div class="d-flex align-items-center">
+                            <div class="tab-icon">
+                              <ion-icon
+                                name="home-sharp"
+                                class="me-1"
+                              ></ion-icon>
+                            </div>
+                            <div class="tab-title">설명</div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          data-bs-toggle="tab"
+                          href="#successprofile3"
+                          role="tab"
+                          aria-selected="false"
+                        >
+                          <div class="d-flex align-items-center">
+                            <div class="tab-icon">
+                              <ion-icon
+                                name="person-sharp"
+                                class="me-1"
+                              ></ion-icon>
+                            </div>
+                            <div class="tab-title">프롬프트</div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          data-bs-toggle="tab"
+                          href="#successcontact3"
+                          role="tab"
+                          aria-selected="false"
+                        >
+                          <div class="d-flex align-items-center">
+                            <div class="tab-icon">
+                              <ion-icon
+                                name="call-sharp"
+                                class="me-1"
+                              ></ion-icon>
+                            </div>
+                            <div class="tab-title">소스 이미지</div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="tab-content py-3">
+                      <div
+                        class="tab-pane fade show active"
+                        id="successhome3"
+                        role="tabpanel"
+                      >
+                        <h4>시퀀스3:pc방에 불이나 아비규환인 앱그룹</h4>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="successprofile3"
+                        role="tabpanel"
+                      >
+                        <h4>veo3를 위한 프롬프트</h4>
+                        <h5 class="text-secondary">
+                          A cinematic 3D animated scene inside a modern Korean
+                          PC café, filled with glowing gaming PCs and neon
+                          lights. Suddenly, smoke and flames burst out,
+                          spreading panic. Gamers jump from their chairs,
+                          shouting in Korean, “으아악 앱그룹 살려주세요!” with
+                          exaggerated, expressive animation. The camera captures
+                          chaos with dramatic lighting, flashing monitors, and
+                          people running in all directions. The style is
+                          Pixar-like 3D animation, with vibrant colors, smooth
+                          motion, and a mix of comedy and urgency.
+                        </h5>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="successcontact3"
+                        role="tabpanel"
+                        style="overflow: scroll"
+                      >
+                        <img
+                          src="/assets/img/seq3/pcroom3.png"
+                          style="max-width: 300px"
+                        />
+                        <img
+                          src="/assets/img/seq3/pcroom_fire.png"
+                          style="max-width: 300px"
+                        />
+                        <img
+                          src="/assets/img/seq3/frozenfire.png"
+                          style="max-width: 300px"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card radius-10">
+                <div class="card-body">
+                  <div class="d-flex align-items-start gap-2">
+                    <div>
+                      <p class="mb-0 fs-6">시퀀스4</p>
+                    </div>
+                    <div
+                      class="ms-auto widget-icon-small text-white bg-gradient-success"
+                    >
+                      <ion-icon name="bar-chart-outline"></ion-icon>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <ul class="nav nav-tabs nav-success" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link active"
+                          data-bs-toggle="tab"
+                          href="#successhome4"
+                          role="tab"
+                          aria-selected="true"
+                        >
+                          <div class="d-flex align-items-center">
+                            <div class="tab-icon">
+                              <ion-icon
+                                name="home-sharp"
+                                class="me-1"
+                              ></ion-icon>
+                            </div>
+                            <div class="tab-title">설명</div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          data-bs-toggle="tab"
+                          href="#successprofile4"
+                          role="tab"
+                          aria-selected="false"
+                        >
+                          <div class="d-flex align-items-center">
+                            <div class="tab-icon">
+                              <ion-icon
+                                name="person-sharp"
+                                class="me-1"
+                              ></ion-icon>
+                            </div>
+                            <div class="tab-title">프롬프트</div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          data-bs-toggle="tab"
+                          href="#successcontact4"
+                          role="tab"
+                          aria-selected="false"
+                        >
+                          <div class="d-flex align-items-center">
+                            <div class="tab-icon">
+                              <ion-icon
+                                name="call-sharp"
+                                class="me-1"
+                              ></ion-icon>
+                            </div>
+                            <div class="tab-title">소스 이미지</div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="tab-content py-3">
+                      <div
+                        class="tab-pane fade show active"
+                        id="successhome4"
+                        role="tabpanel"
+                      >
+                        <h4>
+                          시퀀스4:화재를 진압하고 서로의 소중함을 깨달으며..
+                          피날레
+                        </h4>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="successprofile4"
+                        role="tabpanel"
+                      >
+                        <h4>veo3를 위한 프롬프트</h4>
+                        <h5 class="text-secondary">
+                          A heroic 3D animated scene of Iron Man wearing a sleek
+                          business suit, flying through the air with glowing
+                          thrusters. He arrives dramatically at a burning PC
+                          café, releasing powerful foam and water jets to
+                          extinguish the fire. The flames vanish as smoke
+                          clears, and the crowd of people cheer loudly, shouting
+                          in Korean, “앱하면 앱1이지!” The scene is cinematic,
+                          Pixar-like 3D animation with vibrant colors, smooth
+                          motion, expressive faces, and a triumphant heroic
+                          atmosphere.
+                        </h5>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="successcontact4"
+                        role="tabpanel"
+                        style="overflow: scroll"
+                      >
+                        <img
+                          src="/assets/img/seq4/resolveplm.png"
+                          style="max-width: 300px"
+                        />
+                        <img
+                          src="/assets/img/seq4/finish.png"
+                          style="max-width: 300px"
+                        />
+                        <div class="row">
+                          <div class="col">
+                            <img
+                              src="/assets/img/seq4/msgman1.JPG"
+                              style="max-width: 130px"
+                            />
+                          </div>
+                          <div class="col">
+                            <img
+                              src="/assets/img/seq4/callman1.JPG"
+                              style="max-width: 130px"
+                            />
+                          </div>
+                        </div>
+
+                        <img
+                          src="/assets/img/seq4/we.png"
+                          style="max-width: 300px"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end row-->
+        </div>
+        <!-- end page content-->
+      </div>
+      <!--end page content wrapper-->
+
+      <!--start footer-->
+      <footer class="footer">
+        <div class="footer-text">
+          Copyright © 2025 LeeJungHun Change Agent. All right reserved.
+        </div>
+      </footer>
+      <!--end footer-->
+
+      <!--Start Back To Top Button-->
+      <a href="javaScript:;" class="back-to-top">
+        <ion-icon name="arrow-up-outline"></ion-icon>
+      </a>
+      <!--End Back To Top Button-->
+
+      <!--start overlay-->
+      <div class="overlay nav-toggle-icon"></div>
+      <!--end overlay-->
+    </div>
+    <!--end wrapper-->
+
+    <!-- JS Files-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+    <script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <!--plugins-->
+    <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+    <script src="assets/plugins/apexcharts-bundle/js/apexcharts.min.js"></script>
+    <script src="assets/plugins/easyPieChart/jquery.easypiechart.js"></script>
+    <script src="assets/plugins/chartjs/chart.min.js"></script>
+    <script src="assets/js/index.js"></script>
+    <!-- Main JS-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
