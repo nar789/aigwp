@@ -1,0 +1,29 @@
+<<나노바나나>>(https://aistudio.google.com/prompts/new_chat)
+
+골프치는 아이언맨
+Iron Man playing golf, swinging a golf club on a bright green course, 3D animation style, Pixar-like, highly detailed armor, dynamic action pose, cinematic lighting, smooth shading, vibrant colors, cartoon realism
+
+
+2명의 남자가 PC방에서 게임
+two men playing computer games together in a PC bang (internet cafe), sitting side by side with glowing monitors, immersive gaming atmosphere, 3D animation style, Pixar-like, detailed interior with neon lights, warm ambient lighting, expressive characters, vibrant colors, cinematic perspective
+
+
+세 명의 남자가 PC방에서 하이파이브
+three men in a PC bang (internet cafe) doing a high five together, celebrating after a game win, glowing computer monitors around them, 3D animation style, Pixar-like characters, detailed interior with neon lights and gaming chairs, expressive joyful faces, vibrant colors, cinematic perspective, smooth shading
+
+
+<<Veo3>>(https://labs.google/fx/ko/tools/flow)
+장면1
+A cinematic 3D animated scene of Iron Man wearing a sleek black suit, standing on a lush golf course, swinging a golf club with perfect form. The animation style should be Pixar-like with smooth motion, vibrant colors, and realistic lighting. The scene captures the elegance of his suit contrasting with the high-tech Iron Man helmet, while the golf ball soars dramatically into the sky. Dynamic camera angles emphasize the swing in a stylish and heroic manner.
+
+
+장면2
+A dynamic 3D animated scene of Iron Man in a sharp black business suit, holding a smartphone to his ear. Suddenly, he looks shocked, shouting in Korean, “아니 뭐라고?” with expressive animation. His helmet snaps into place as he activates his thrusters, launching dramatically into the sky with glowing jet flames. The style is cinematic, Pixar-like, with smooth motion, vivid expressions, and a mix of humor and heroic energy.
+
+
+장면3
+A cinematic 3D animated scene inside a modern Korean PC café, filled with glowing gaming PCs and neon lights. Suddenly, smoke and flames burst out, spreading panic. Gamers jump from their chairs, shouting in Korean, “으아악 앱그룹 살려주세요!” with exaggerated, expressive animation. The camera captures chaos with dramatic lighting, flashing monitors, and people running in all directions. The style is Pixar-like 3D animation, with vibrant colors, smooth motion, and a mix of comedy and urgency.
+
+
+장면4
+A heroic 3D animated scene of Iron Man wearing a sleek business suit, flying through the air with glowing thrusters. He arrives dramatically at a burning PC café, releasing powerful foam and water jets to extinguish the fire. The flames vanish as smoke clears, and the crowd of people cheer loudly, shouting in Korean, “앱하면 앱1이지!” The scene is cinematic, Pixar-like 3D animation with vibrant colors, smooth motion, expressive faces, and a triumphant heroic atmosphere.
